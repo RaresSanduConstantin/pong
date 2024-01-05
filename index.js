@@ -1,7 +1,7 @@
 const canvas = document.getElementById('pongCanvas');
 const ctx = canvas.getContext('2d');
-canvas.width = 385;
-canvas.height = 800;
+canvas.width = 375;
+canvas.height = 667;
 
 let animationFrameId;
 let gameIsOver = false;
@@ -9,7 +9,7 @@ let gameIsOver = false;
 let gameMode = "AI"; // Default game mode
 
 let gameStarted = false;
-var rounds = [1,1];
+var rounds = [5,5, 3, 3, 2];
 var colors = ['#1abc9c', '#2ecc71', '#3498db', '#e74c3c', '#9b59b6'];
 var currentRound = 0;
 var playerScore = 0;
